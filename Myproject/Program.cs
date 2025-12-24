@@ -14,9 +14,9 @@ class Task2
         Console.WriteLine("The number matrix has been initialized.");
 
         
-        int digit1 = numberMatrix[1][3]; // Row 1, Index 3: 7
-        int digit2 = numberMatrix[0][0]; // Row 0, Index 0: 2
-        int digit3 = numberMatrix[1][4]; // Row 1, Index 4: 9
+        int digit1 = numberMatrix[1][3];
+        int digit2 = numberMatrix[0][0];
+        int digit3 = numberMatrix[1][4];
 
         
         string finalKey = digit1.ToString() + digit2.ToString() + digit3.ToString();
